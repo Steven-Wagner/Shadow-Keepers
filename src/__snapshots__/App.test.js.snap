@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App> opening screen renders correctly 1`] = `
+<div
+  className="content"
+>
+  <div
+    className="left-section inventory"
+  >
+    <Route
+      path="/"
+      render={[Function]}
+    />
+  </div>
+  <main
+    className="main-section"
+    role="main"
+  >
+    <Route
+      exact={true}
+      path="/"
+      render={[Function]}
+    />
+    <Route
+      path="/mission/"
+      render={[Function]}
+    />
+    <Route
+      path="/agentmenu"
+      render={[Function]}
+    />
+  </main>
+  <div
+    className="right-section agent-stuff"
+  >
+    <AgentList
+      agents={
+        Array [
+          Object {
+            "currentMission": "Some Mission",
+            "name": "Steve",
+            "skills": Object {
+              "Charisma": 1,
+              "Combat": 1,
+              "Investigation": 1,
+            },
+          },
+        ]
+      }
+    />
+    <Route
+      component={[Function]}
+      path="/"
+    />
+  </div>
+</div>
+`;

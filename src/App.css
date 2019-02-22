@@ -1,32 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.content {
+  display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-section {
+  flex: 1 1 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.left-section, .right-section {
+  flex: 1 1 15%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.agent-choices {
+  text-align: center;
+  width: 100%;
+}
+
+.agent {
+  text-align: center;
+  border: 1px solid black;
+  width: 100%;
+  margin: 1px;
+  padding: 5px;
+}
+
+.agent-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.chosen-agent {
+  border: 5px solid blue;
+}
+
+.mission-options {
+  text-align: center;
+}
+
+.new-agents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.new-agents-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

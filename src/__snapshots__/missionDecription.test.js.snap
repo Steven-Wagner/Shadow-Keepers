@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MissionDescription renders correctly 1`] = `
+<div>
+  <div>
+    <p>
+      This is the intro. My name is Sightseer. Would you like to join my team?
+    </p>
+  </div>
+  <div
+    className="mission-options"
+  >
+    <MissionOptions
+      key="0"
+      optionData={
+        Object {
+          "action": Array [
+            undefined,
+            undefined,
+          ],
+          "label": "Count Me In",
+        }
+      }
+    />
+    <MissionOptions
+      key="1"
+      optionData={
+        Object {
+          "action": Array [
+            undefined,
+            undefined,
+          ],
+          "label": "I'm Not Sure I'm Ready",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`<MissionOption renders button correcty 1`] = `
+<button
+  onClick={[Function]}
+>
+  Count Me In
+</button>
+`;
