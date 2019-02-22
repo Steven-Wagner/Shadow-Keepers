@@ -1,5 +1,32 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Shadow Keepers
+
+A turn based strategy game, created with React that includes resource and personnel management. My end goal is to create an editor that can be used to mod the game without having any prior programming experience.
+
+## Features
+
+* Inventory System
+* Personel Managment
+* Missions with various outcomes based on success or failure
+* Flexable narrative options and event handeling
+* Basics of building out the game, scenarios, missions, and even item creation require almost no programming skills
+* Stats and skills of agents in the game can change
+* Flexable infrustructure that can be used creativily to develop several different types of games
+
+## Coming Features
+
+* A UI to edit missions and events
+* Send items on missions
+* Secret stats that can be added to agents to track things the user shouldn't see
+* Purchase Items Menu
+* Documentation!
+
+## Technologies Used
+
+JavaScript, React, HTML5, CSS3, Enzyme
+
+
 ## Available Scripts
 
 In the project directory, you can run:
